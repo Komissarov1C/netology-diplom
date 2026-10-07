@@ -9,6 +9,7 @@
     <types>DocumentObject.ПоступлениеТоваровУслуг</types>
     <types>DocumentObject.РеализацияТоваровУслуг</types>
     <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.BKM_ОбслуживаниеКлиентов</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
