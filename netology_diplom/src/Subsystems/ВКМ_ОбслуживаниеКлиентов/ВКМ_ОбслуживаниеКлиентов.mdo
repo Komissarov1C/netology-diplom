@@ -11,4 +11,6 @@
     <picture>StdPicture.User</picture>
   </picture>
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_УведомленияТелеграм</content>
 </mdclass:Subsystem>

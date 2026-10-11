@@ -15,4 +15,10 @@
     <picture>StdPicture.Parameters</picture>
   </picture>
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</content>
+  <content>Catalog.ВКМ_УведомленияТелеграм</content>
+  <content>Constant.ВКМ_ТокенТелеграмБот</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
+  <content>Document.РеализацияТоваровУслуг</content>
 </mdclass:Subsystem>
