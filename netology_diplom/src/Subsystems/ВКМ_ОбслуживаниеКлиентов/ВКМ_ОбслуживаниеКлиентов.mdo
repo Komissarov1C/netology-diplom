@@ -13,4 +13,14 @@
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
   <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграм</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>CommandGroup.BKM_РегистрыРасчета</content>
+  <content>CommandGroup.ВКМ_Документы</content>
+  <content>CommandGroup.ВКМ_РегистрыСведений</content>
+  <content>CommandGroup.ВКМ_РегистрыНакопления</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>
