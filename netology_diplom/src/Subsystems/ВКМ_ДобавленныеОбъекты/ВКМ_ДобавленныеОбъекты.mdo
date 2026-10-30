@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a52374-d7e4-4fa9-970e-2af5cda626ad">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Добавленные объекты в рамках проекта</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Parameters</picture>
+  </picture>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</content>
+  <content>Catalog.ВКМ_УведомленияТелеграм</content>
+  <content>Constant.ВКМ_ТокенТелеграмБот</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>CommandGroup.ВКМ_РегистрыРасчета</content>
+  <content>CommandGroup.ВКМ_Документы</content>
+  <content>CommandGroup.ВКМ_РегистрыСведений</content>
+  <content>CommandGroup.ВКМ_РегистрыНакопления</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРабот</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>InformationRegister.ВКМ_СведенияОбОтпусках</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Report.ВКМ_ВыработкаCпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</content>
+</mdclass:Subsystem>

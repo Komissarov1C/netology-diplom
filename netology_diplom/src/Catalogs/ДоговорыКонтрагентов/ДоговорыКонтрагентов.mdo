@@ -154,7 +154,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dc082f81-2049-428d-ac07-bab7f6112523">
-    <name>BKM_ДатаНачалаДействияДоговора</name>
+    <name>ВКМ_ДатаНачалаДействияДоговора</name>
     <synonym>
       <key>ru</key>
       <value>Дата начала действия договора</value>
@@ -170,7 +170,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="6a2dadc3-bbf6-4acd-a6a1-1521b3076588">
-    <name>BKM_ДатаОкончанияДействияДоговора</name>
+    <name>ВКМ_ДатаОкончанияДействияДоговора</name>
     <synonym>
       <key>ru</key>
       <value>Дата окончания действия договора</value>
@@ -186,7 +186,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="1625df6c-3d61-4c13-9337-fbe2e160810b">
-    <name>BKM_ЕжемесячнаяАбонентскаяПлата</name>
+    <name>ВКМ_ЕжемесячнаяАбонентскаяПлата</name>
     <synonym>
       <key>ru</key>
       <value>Ежемесячная абонентская плата</value>

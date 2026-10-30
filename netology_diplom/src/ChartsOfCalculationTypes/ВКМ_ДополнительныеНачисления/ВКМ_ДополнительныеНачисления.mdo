@@ -19,12 +19,16 @@
     <value>Дополнительные начисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Code</inputByString>
   <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительное начисление</value>
+  </objectPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>
@@ -37,14 +41,14 @@
       <name>ПремияПроцентом</name>
       <description>Премия процентом</description>
       <code xsi:type="core:StringValue">
-        <value>1</value>
+        <value></value>
       </code>
     </items>
     <items id="22cc5926-d37c-482d-ab29-757d80e6560c">
       <name>ПремияФиксированная</name>
       <description>Премия фиксированная</description>
       <code xsi:type="core:StringValue">
-        <value>2</value>
+        <value></value>
       </code>
     </items>
   </predefined>

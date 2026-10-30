@@ -343,6 +343,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ОсновныеНачисления.ДатаОкончания</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОсновныеНачисленияДатаОкончанияПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОсновныеНачисленияДатаОкончанияРасширеннаяПодсказка</name>
             <id>44</id>
@@ -381,9 +385,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ОсновныеНачисления.ГрафикРабот</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ОсновныеНачисленияГрафикРаботРасширеннаяПодсказка</name>
             <id>47</id>
@@ -408,7 +409,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -928,8 +928,8 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
         <wrap>true</wrap>
         <multiLine>true</multiLine>
         <extendedEditMultipleValues>true</extendedEditMultipleValues>
@@ -947,6 +947,7 @@
       <key>ru</key>
       <value>Группа подвал</value>
     </title>
+    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаПодвалРасширеннаяПодсказка</name>
       <id>78</id>
@@ -959,7 +960,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -1004,23 +1005,33 @@
     <navigationPanel>
       <cmiFragmentRecord>
         <command>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <command>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenByRecorder</command>
-        <userVisible/>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>

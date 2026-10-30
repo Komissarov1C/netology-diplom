@@ -3,9 +3,9 @@
   <name>УправлениеITФирмой</name>
   <synonym>
     <key>ru</key>
-    <value>Управление ITФирмой</value>
+    <value>Управление IT-Фирмой</value>
   </synonym>
-  <comment>Дипломная работа по курсу Нетология</comment>
+  <comment>Дипломная работа по курсу Нетология &quot;1C-программист: расширенный&quot;</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="76aa584c-a8a0-4aad-b109-d17c4a2a1af5"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f20f6503-1e59-45bc-a50a-b8901302485d"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3fb95876-323d-4ff4-9b21-39c88dd3ff69"/>
@@ -60,8 +60,8 @@
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
-  <subsystems>Subsystem.BKM_РасчетУправленческойЗарплаты</subsystems>
-  <subsystems>Subsystem.BKM_ДобавленныеОбъекты</subsystems>
+  <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
+  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -632,13 +632,18 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеОбработкиМассовоеСозданиеАктов</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
-  <roles>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбработкиМассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбработкиЗаполненияГрафика</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаВыработкаСпециалистов</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаАнализВыставленныхАктов</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаАнализРасчетаССотрудниками</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетаАнализРасходаЗапланированныхОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -896,6 +901,7 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.ВКМ_АдаптацияДокументаРеализацияТоваровИУслугСервер</commonModules>
   <commonModules>CommonModule.ВКМ_КорректировкаДокументаРеализацияТоваровИУслугСерверСерверГлобальный</commonModules>
   <commonModules>CommonModule.ВКМ_ОбменТелеграм</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
@@ -1068,7 +1074,7 @@
   <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
   <commandGroups>CommandGroup.ВКМ_РегистрыСведений</commandGroups>
   <commandGroups>CommandGroup.ВКМ_РегистрыНакопления</commandGroups>
-  <commandGroups>CommandGroup.BKM_РегистрыРасчета</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыРасчета</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -1135,8 +1141,8 @@
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
-  <constants>Constant.BKM_НоменклатураАбонентскаяПлата</constants>
-  <constants>Constant.BKM_НоменклатураРаботыСпециалиста</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <constants>Constant.ВКМ_ТокенТелеграмБот</constants>
   <constants>Constant.ВКМ_ИдентификаторГруппыТелеграм</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
@@ -1244,17 +1250,17 @@
   <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВКМ_УведомленияТелеграм</catalogs>
   <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
-  <catalogs>Catalog.BKM_ГрафикиРабот</catalogs>
+  <catalogs>Catalog.ВКМ_Подразделения</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
-  <documents>Document.BKM_ОбслуживаниеКлиентов</documents>
+  <documents>Document.ВКМ_ОбслуживаниеКлиентов</documents>
   <documents>Document.ВКМ_НачислениеЗарплаты</documents>
   <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
-  <documents>Document.BKM_ВыплатаЗарплаты</documents>
-  <documents>Document.BKM_ГрафикОтпусков</documents>
+  <documents>Document.ВКМ_ВыплатаЗарплаты</documents>
+  <documents>Document.ВКМ_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1316,6 +1322,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаCпециалистов</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1412,17 +1422,17 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
-  <informationRegisters>InformationRegister.BKM_ГрафикиРабот</informationRegisters>
-  <informationRegisters>InformationRegister.BKM_СведенияОбОтпусках</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_ГрафикиРабот</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_СведенияОбОтпусках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОбработкаЗаказов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>

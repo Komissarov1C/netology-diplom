@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a6b7045-f1f5-424d-8fff-bbb78a762c3a">
+  <name>ВКМ_ДобавлениеИзменениеОбработкиЗаполненияГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение обработки заполнения графика</value>
+  </synonym>
+</mdclass:Role>

@@ -18,9 +18,9 @@
   <periodicity>Month</periodicity>
   <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
-  <schedule>InformationRegister.BKM_ГрафикиРабот</schedule>
-  <scheduleValue>InformationRegister.BKM_ГрафикиРабот.Resource.Значение</scheduleValue>
-  <scheduleDate>InformationRegister.BKM_ГрафикиРабот.Dimension.Дата</scheduleDate>
+  <schedule>InformationRegister.ВКМ_ГрафикиРабот</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРабот.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРабот.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="97035eb4-5edf-42c4-98a1-8bb38f61f4a2">
@@ -56,6 +56,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <attributes uuid="703e5347-2ba8-420f-bb97-32ea12428d08">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="0362b9de-d89f-4058-8e13-bf8dcec0222f">
     <name>Сотрудник</name>
     <synonym>

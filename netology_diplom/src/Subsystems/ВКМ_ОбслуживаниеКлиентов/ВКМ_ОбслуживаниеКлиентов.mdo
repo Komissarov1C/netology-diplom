@@ -6,15 +6,20 @@
     <value>Обслуживание клиентов</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.User</picture>
   </picture>
-  <content>Document.BKM_ОбслуживаниеКлиентов</content>
-  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграм</content>
   <content>Document.РеализацияТоваровУслуг</content>
-  <content>CommandGroup.BKM_РегистрыРасчета</content>
+  <content>CommandGroup.ВКМ_РегистрыРасчета</content>
   <content>CommandGroup.ВКМ_Документы</content>
   <content>CommandGroup.ВКМ_РегистрыСведений</content>
   <content>CommandGroup.ВКМ_РегистрыНакопления</content>
@@ -23,4 +28,8 @@
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.Контрагенты</content>
+  <content>Report.ВКМ_ВыработкаCпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</content>
 </mdclass:Subsystem>
